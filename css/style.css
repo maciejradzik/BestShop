@@ -41,6 +41,7 @@ html{
     opacity: 1;
     position: absolute;
     width: 100%;
+    z-index: -1;
 }
 .container{
     width: 1352px;
@@ -53,8 +54,11 @@ html{
 
 .header-nav{
     width: 650px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
 }
 
 h1{
@@ -69,8 +73,22 @@ h1{
     text-align: center;
     font: normal normal bold 11px/15px Open Sans;
     letter-spacing: 3.28px;
-    color: #000000;
+    color: #A5A5A5;
     opacity: 1;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-button:hover{
+    text-align: center;
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    color: #000000;
+    opacity: 1;
+    border-bottom: 4px solid #08A6E4;
+
 }
