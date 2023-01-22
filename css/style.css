@@ -770,18 +770,47 @@ form{
 span{
     margin-left: 10px;
     line-height: 17px;
+    width: 400px;
 }
 
 input[type="checkbox"] {
-    background: #ff0000 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #95989A;
     border-radius: 4px;
     opacity: 1;
     cursor: pointer;
+    width: 24px;
+    height: 24px;
+    appearance: none;
+    text-align: center;
 }
 
-/*.Checkbox:checked{*/
-/*    background: red;*/
+input[type="checkbox"]:checked:after{
+    background: white;
+    content: '\2713';
+    font-size: 16px;
+    color:#08A6E4;
+}
+
+/*input[type='checkbox']:checked {*/
+/*    background-color: white;*/
+/*}*/
+/*input[type='checkbox']:checked:after {*/
+/*    content: '\2713';*/
+/*    font-size: 16px;*/
+/*    color:#08A6E4;*/
+/*}*/
+/*input[type='checkbox']{*/
+/*    line-height: 24px;*/
+/*    text-align: center;*/
+/*    min-width: 24px !important;*/
+/*    height: 24px !important;*/
+/*    appearance: none;*/
+/*    border-radius: 6px;*/
+/*    border: 1px solid #B2B2B2;*/
+/*    box-shadow: none;*/
+/*    font-size: 12px;*/
+/*    font-weight: normal;*/
 /*}*/
 
 .send-btn{
